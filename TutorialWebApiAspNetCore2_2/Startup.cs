@@ -37,6 +37,8 @@ namespace TutorialWebApiAspNetCore2_2
                 app.UseHsts();
             }
 
+            app.UseDefaultFiles();
+            app.UseStaticFiles();
             app.UseHttpsRedirection();
             app.UseMvc();
         }
